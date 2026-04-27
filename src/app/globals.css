@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/...');
+
+@import "tailwindcss";
+
+:root {
+  --font-display: 'Cormorant Garamond', Georgia, serif;
+  --font-body: 'DM Sans', system-ui, sans-serif;
+
+  --bg-primary: #FAF8F5;
+  --bg-secondary: #F2EFE9;
+  --bg-card: #FFFFFF;
+  --bg-subtle: #EDE9E1;
+  --text-primary: #1A1612;
+  --text-secondary: #4A4238;
+  --text-muted: #8C7E6E;
+  --accent-green: #2D5016;
+  --accent-green-light: #4A7C28;
+  --accent-earth: #8B5E3C;
+  --accent-sand: #C4A882;
+  --border: #D8D0C4;
+  --border-light: #EDE9E1;
+  --shadow: rgba(26, 22, 18, 0.08);
+  --shadow-strong: rgba(26, 22, 18, 0.18);
+}
+
+.dark {
+  --bg-primary: #0F0E0C;
+  --bg-secondary: #1A1814;
+  --bg-card: #211F1A;
+  --bg-subtle: #2A2720;
+  --text-primary: #F5F0E8;
+  --text-secondary: #C8BFB0;
+  --text-muted: #8C7E6E;
+  --accent-green: #6AAE3F;
+  --accent-green-light: #8EC85A;
+  --accent-earth: #C4845A;
+  --accent-sand: #A88B6A;
+  --border: #3A3530;
+  --border-light: #2A2720;
+  --shadow: rgba(0, 0, 0, 0.3);
+  --shadow-strong: rgba(0, 0, 0, 0.5);
+}
+
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+
+body {
+  font-family: var(--font-body);
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+  transition: background-color 0.3s ease, color 0.3s ease;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4 { font-family: var(--font-display); }
+
+.section-label {
+  font-family: var(--font-body);
+  font-size: 0.7rem;
+  font-weight: 500;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--accent-green);
+}
+
+.card {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+  border-color: var(--accent-sand);
+  box-shadow: 0 8px 32px var(--shadow);
+}
+
+.deco-line {
+  width: 40px;
+  height: 2px;
+  background-color: var(--accent-green);
+}
+
+.map-grid {
+  background-image: 
+    linear-gradient(var(--border) 1px, transparent 1px),
+    linear-gradient(90deg, var(--border) 1px, transparent 1px);
+  background-size: 40px 40px;
+}
