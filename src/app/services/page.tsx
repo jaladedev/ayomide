@@ -26,7 +26,7 @@ const services = [
   {
     icon: <Compass size={24} />,
     title: 'Development Control Advisory',
-    description: 'Expert guidance through the planning approval process in Lagos, Abuja, and other states. We manage application submissions, respond to queries, and liaise with planning authorities on your behalf.',
+    description: 'Expert guidance through the planning approval process in Oyo, Abuja, and other states. We manage application submissions, respond to queries, and liaise with planning authorities on your behalf.',
     deliverables: ['Planning Application Package', 'Regulatory Compliance Review', 'Liaison with Planning Authority', 'Conditions Discharge'],
     clients: 'Property owners, architects, developers',
   },

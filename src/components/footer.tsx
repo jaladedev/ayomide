@@ -98,15 +98,15 @@ export function Footer() {
             <div style={{ display: 'flex', flexDirection: 'column', gap: '0.75rem' }}>
               <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', color: 'var(--text-secondary)', fontSize: '0.875rem' }}>
                 <MapPin size={14} color="var(--accent-green)" />
-                Lagos, Nigeria
+                Ibadan, Oyo State, Nigeria
               </div>
-              <a href="mailto:hello@ayomidealalade.com" style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', color: 'var(--text-secondary)', fontSize: '0.875rem', textDecoration: 'none' }}>
+              <a href="mailto:alaladeayomide01@gmail.com" style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', color: 'var(--text-secondary)', fontSize: '0.875rem', textDecoration: 'none' }}>
                 <Mail size={14} color="var(--accent-green)" />
-                hello@ayomidealalade.com
+                alaladeayomide01@gmail.com
               </a>
               <a href="tel:+2348000000000" style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', color: 'var(--text-secondary)', fontSize: '0.875rem', textDecoration: 'none' }}>
                 <Phone size={14} color="var(--accent-green)" />
-                +234 800 000 0000
+                +234 806 843 1346
               </a>
               <div style={{ display: 'flex', gap: '0.75rem', marginTop: '0.5rem' }}>
                 <a href="#" style={{ color: 'var(--text-muted)', transition: 'color 0.2s' }}>

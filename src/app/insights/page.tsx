@@ -3,7 +3,7 @@ import { Calendar, Tag, ArrowRight } from 'lucide-react'
 const posts = [
   {
     title: 'Why Peri-Urban Zones Are Nigeria\'s Biggest Investment Opportunity in 2024',
-    excerpt: 'As Lagos and Abuja expand outward, the land corridors between established cities and new growth poles are quietly becoming the most valuable land in Nigeria. Here\'s how to read the signals.',
+    excerpt: 'As Oyo and Abuja expand outward, the land corridors between established cities and new growth poles are quietly becoming the most valuable land in Nigeria. Here\'s how to read the signals.',
     date: 'March 15, 2024',
     tags: ['Investment', 'Land Market'],
     readTime: '6 min read',

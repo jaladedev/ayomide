@@ -49,14 +49,14 @@ export default function ContactPage() {
                   <div style={{ color: 'var(--accent-green)', flexShrink: 0, marginTop: '2px' }}><Mail size={18} /></div>
                   <div>
                     <div style={{ fontSize: '0.7rem', fontWeight: 600, letterSpacing: '0.1em', textTransform: 'uppercase', color: 'var(--text-muted)', marginBottom: '3px' }}>Email</div>
-                    <a href="mailto:hello@ayomidealalade.com" style={{ fontSize: '0.9rem', color: 'var(--text-primary)', textDecoration: 'none' }}>hello@ayomidealalade.com</a>
+                    <a href="mailto:alaladeayomide01@gmail.com" style={{ fontSize: '0.9rem', color: 'var(--text-primary)', textDecoration: 'none' }}>alaladeayomide01@gmail.com</a>
                   </div>
                 </div>
                 <div style={{ display: 'flex', alignItems: 'flex-start', gap: '1rem', padding: '1.25rem', border: '1px solid var(--border)', backgroundColor: 'var(--bg-card)' }}>
                   <div style={{ color: 'var(--accent-green)', flexShrink: 0, marginTop: '2px' }}><Phone size={18} /></div>
                   <div>
                     <div style={{ fontSize: '0.7rem', fontWeight: 600, letterSpacing: '0.1em', textTransform: 'uppercase', color: 'var(--text-muted)', marginBottom: '3px' }}>Phone</div>
-                    <a href="tel:+2348000000000" style={{ fontSize: '0.9rem', color: 'var(--text-primary)', textDecoration: 'none' }}>+234 800 000 0000</a>
+                    <a href="tel:+2348000000000" style={{ fontSize: '0.9rem', color: 'var(--text-primary)', textDecoration: 'none' }}>+234 806 843 1346</a>
                   </div>
                 </div>
                 <div style={{ display: 'flex', alignItems: 'flex-start', gap: '1rem', padding: '1.25rem', border: '1px solid var(--border)', backgroundColor: 'var(--bg-card)' }}>
@@ -70,7 +70,7 @@ export default function ContactPage() {
                   <div style={{ color: 'var(--accent-green)', flexShrink: 0, marginTop: '2px' }}><MapPin size={18} /></div>
                   <div>
                     <div style={{ fontSize: '0.7rem', fontWeight: 600, letterSpacing: '0.1em', textTransform: 'uppercase', color: 'var(--text-muted)', marginBottom: '3px' }}>Office</div>
-                    <div style={{ fontSize: '0.9rem', color: 'var(--text-primary)' }}>Lagos, Nigeria<br />(Consultations Nationwide)</div>
+                    <div style={{ fontSize: '0.9rem', color: 'var(--text-primary)' }}>Ibadan, Oyo State, Nigeria<br />(Consultations Nationwide)</div>
                   </div>
                 </div>
               </div>
