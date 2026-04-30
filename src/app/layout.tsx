@@ -3,6 +3,8 @@ import './globals.css'
 import { Providers } from '@/components/providers'
 import { Navbar } from '@/components/navbar'
 import { Footer } from '@/components/footer'
+import { PageLoader } from '@/components/page-loader'
+import { Suspense } from 'react'
 
 const siteUrl = process.env.NEXT_PUBLIC_APP_URL || "https://lalayomi.vercel.app";
 
@@ -87,6 +89,9 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           dangerouslySetInnerHTML={{ __html: JSON.stringify(personJsonLd) }}
         />
         <Providers>
+          <Suspense fallback={null}>
+            <PageLoader variant="default" />
+          </Suspense>
           <Navbar />
           <main style={{ minHeight: '100vh' }}>{children}</main>
           <Footer />
